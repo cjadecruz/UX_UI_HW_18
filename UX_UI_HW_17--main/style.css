@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -41,4 +42,43 @@ ul li a {
 
 .heroSection {
     display: grid;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 78px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.heroSection {
+    display: grid;
+}
+
+.aboutSection {
+    
+}
+
+.work {
+    display: flex;
+    width: 33%;
+}
+
+.skills {
+    display: grid;
+    grid-column: auto;
+    grid-row: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width:600) {
+    .work {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 }
