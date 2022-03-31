@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+
+ul {
+    display:flex;
+    /* this will cause all "li" items to appear in a row because they are children of the "ul" element */
+
+    list-style-type: none;
+    /* this causes the bullet points to go away! */
+
+    align-items: center;
+    /*must do this so that your button aligns with the rest of the navigation */
+
+    text-transform: uppercase;
+}
+
+ul li a {
+    padding: 0 20px;
+    /* shorthand for setting padding - the first value affects x-axis (top/bottom) and the second affects y-axis (left/right) 
+    this affects the SPACING of the links */
+
+    text-decoration: none;
+    /* this removes the underline */
+
+    color: #3a3a3a;
+    display: inline-block;
+}
+
+.heroSection {
+    display: grid;
+}
